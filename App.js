@@ -47,7 +47,7 @@ export default function App() {
     // alert(`Bar code with data "${data}" has been scanned!`);
     setDataScanned(data);
   };
-  
+
   const scanAgain = () => {
     setScanned(false);
   };
